@@ -154,4 +154,30 @@
     grid-template-columns: repeat(1, 1fr);
   }
   /* main team-section end here */
+
+  /* footer start here */
+  footer .fitness-container {
+    width: 370px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+  }
+
+  footer .fitness {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+
+  .started-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  hr {
+    width: 370px;
+    margin-top: 80px;
+    margin-bottom: 36px;
+  }
+  /* footer end here */
 }
