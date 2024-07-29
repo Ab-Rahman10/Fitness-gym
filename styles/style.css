@@ -9,11 +9,18 @@
 
 body {
   font-family: "Inter", sans-serif;
+  background-color: black;
 }
 
 /* shared styles */
 .title-color {
   color: rgba(255, 255, 255, 1);
+}
+
+.section-title {
+  font-size: 48px;
+  font-weight: 800;
+  color: #ffffff;
 }
 
 .text-description {
@@ -184,4 +191,118 @@ nav {
   border-radius: 50%;
 }
 
+.card2 i {
+  display: none;
+}
 /* header end here */
+
+/* main habit-section start here  */
+main {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.habit-title {
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 58px;
+}
+
+.habit-title h2 {
+  margin-bottom: 14px;
+}
+
+.habit-title p {
+  font-size: 14px;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.habit-container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 100px;
+}
+
+.habit-item {
+  width: 230px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.habit-item img {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.item-info {
+  text-align: center;
+}
+
+.item-info h4 {
+  font-size: 18px;
+  font-weight: 500;
+  margin-top: 30px;
+  margin-bottom: 6px;
+}
+
+.item-info p {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 14px;
+  font-weight: 400;
+}
+
+/* main habit-section end here  */
+
+/* main run-section start here */
+.run-container {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 15px;
+}
+
+.run-info {
+  padding-top: 40px;
+  padding-left: 55px;
+  padding-bottom: 40px;
+}
+
+.run-info p {
+  width: 550px;
+  font-size: 14px;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.5);
+  margin-top: 14px;
+  margin-bottom: 34px;
+}
+
+.run-info .run-btn {
+  background-color: rgba(230, 83, 60, 1);
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 500;
+  padding: 16px 70px;
+  border: none;
+  border-radius: 50px;
+}
+
+.run-img {
+  width: 366px;
+  height: 312px;
+  overflow: hidden;
+  margin-top: 20px;
+  padding-right: 30px;
+}
+
+.run-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 18px;
+}
+
+/* main run-section end here */
