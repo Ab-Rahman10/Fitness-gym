@@ -1,0 +1,187 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+@import url("https://fonts.cdnfonts.com/css/miama");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+}
+
+/* shared styles */
+.title-color {
+  color: rgba(255, 255, 255, 1);
+}
+
+.text-description {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.btn {
+  background-color: rgba(230, 83, 60, 1);
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 500;
+  padding: 16px 46px;
+  border: none;
+  border-radius: 50px;
+}
+
+/* header start here */
+header {
+  background-color: rgba(17, 17, 17, 1);
+}
+
+nav {
+  max-width: 1440px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 45px;
+}
+
+.nav-icon {
+  color: rgba(230, 83, 60, 1);
+  font-size: 36px;
+  font-weight: 800;
+  font-style: italic;
+}
+
+.nav-menu ul {
+  width: 450px;
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid rgba(255, 255, 255, 0.124);
+  border-radius: 50px;
+  padding: 10px 20px 10px 2px;
+}
+
+.nav-menu ul li {
+  list-style: none;
+}
+
+.nav-menu ul li a {
+  color: rgba(255, 255, 255, 1);
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 400;
+  /* margin-right: 30px; */
+}
+
+.nav-menu .home {
+  background-color: rgba(230, 83, 60, 1);
+  padding: 8px 20px;
+  border-radius: 50px;
+}
+
+.bars {
+  display: none;
+}
+
+.banner-container {
+  max-width: 1440px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.banner-info {
+  margin-top: 96px;
+}
+
+.banner-info h1 {
+  font-size: 78px;
+  font-weight: 800;
+}
+
+.banner-info h1 span {
+  font-family: "Miama", sans-serif;
+  font-size: 150px;
+  font-weight: 300;
+  line-height: 120px;
+}
+
+#healthy {
+  margin-top: -28px;
+  margin-bottom: 28px;
+}
+
+.btns {
+  margin-top: 28px;
+  display: flex;
+  gap: 14px;
+}
+
+.btn2 {
+  background-color: transparent;
+  border: 1px solid rgba(255, 255, 255, 0.703);
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 500;
+  padding: 16px 46px;
+  border-radius: 50px;
+}
+
+.banner-img {
+  margin-top: 32px;
+  position: relative;
+}
+
+.banner-img .img {
+  width: 350px;
+  height: auto;
+}
+
+.card1 {
+  position: absolute;
+  background-color: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(20px);
+  padding: 17px 24px;
+  border-radius: 12px;
+  right: -90px;
+  top: 130px;
+}
+
+.card2 {
+  position: absolute;
+  background-color: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(20px);
+  padding: 17px 24px;
+  border-radius: 12px;
+  left: -100px;
+  bottom: 70px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.card1 h1 {
+  font-size: 40px;
+  font-weight: 800;
+}
+
+.card1 h2 {
+  font-size: 24px;
+  font-weight: 800;
+}
+
+.card1,
+.card2 p {
+  color: rgba(239, 237, 232, 0.65);
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.card2 .circle {
+  background-color: rgba(230, 83, 60, 1);
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+/* header end here */
