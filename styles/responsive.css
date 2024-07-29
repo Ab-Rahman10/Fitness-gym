@@ -131,9 +131,27 @@
 
   .run-img {
     width: 356px;
-    height: 170px;
+    height: 200px;
     margin: 22px;
   }
-
   /* main run-section end  */
+
+  /* main team-section start here */
+  .team-info {
+    width: 360px;
+    margin: 0 auto;
+  }
+
+  .team-info h2 {
+    white-space: nowrap;
+    margin-top: 66px;
+  }
+
+  .team-members {
+    width: 370px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  /* main team-section end here */
 }
