@@ -220,7 +220,7 @@ main {
 
 .habit-container {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   margin-bottom: 100px;
 }
 
@@ -307,6 +307,71 @@ main {
 }
 
 /* main run-section end here */
+
+/* main tips style start here */
+.tips {
+  margin-top: 90px;
+  text-align: center;
+}
+
+.tips p {
+  width: 1000px;
+  margin: 0 auto;
+  font-size: 14px;
+  margin-top: 14px;
+}
+
+.tips-container {
+  margin: 50px 0;
+  display: flex;
+  background-color: rgba(255, 255, 255, 0.1);
+  padding: 15px;
+  border-radius: 12px;
+}
+
+.img-contain {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 15px;
+}
+
+.tips-container .img {
+  width: 250px;
+  height: 180px;
+}
+
+.tips-container img {
+  width: 100%;
+  height: 100%;
+  border-radius: 12px;
+  object-fit: cover;
+}
+
+.img-info {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.img-info h3 {
+  margin-top: 80px;
+  margin-bottom: 14px;
+  color: #ffffff;
+  font-size: 24px;
+  font-weight: 700px;
+}
+
+.tips-btn {
+  background-color: rgba(230, 83, 60, 1);
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 500;
+  padding: 16px 70px;
+  border: none;
+  border-radius: 50px;
+  margin-top: 30px;
+}
+
+/* main tips style end here */
 
 /* main team-section start here */
 .team-info {
