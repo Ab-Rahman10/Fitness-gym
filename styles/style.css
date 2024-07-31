@@ -476,6 +476,7 @@ form {
   font-weight: 400;
   color: rgba(255, 255, 255, 0.4);
   border: none;
+  border-right: 15px solid transparent;
   border-radius: 5px;
   padding: 14px 18px;
   grid-column: 5 / span 4;
@@ -487,6 +488,7 @@ form {
   font-weight: 400;
   color: rgba(255, 255, 255, 0.4);
   border: none;
+  border-right: 15px solid transparent;
   border-radius: 5px;
   padding: 14px 18px;
   grid-column: 1 / span 8;
