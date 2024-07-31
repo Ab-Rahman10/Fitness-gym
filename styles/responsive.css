@@ -97,7 +97,6 @@
     flex-direction: column;
     align-items: center;
     gap: 20px;
-    border: 1px solid rebeccapurple;
     margin-top: -30px;
     margin-bottom: 50px;
   }
@@ -189,6 +188,29 @@
   }
 
   /* main tips section end */
+
+  /* main calculate start */
+  .bmi-section {
+    width: 370px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+  }
+
+  .chart {
+    width: 100%;
+    margin-left: 0;
+  }
+
+  .calculate-container {
+    width: 100%;
+  }
+
+  .calculate-btn {
+    width: 60%;
+  }
+  /* main calculate end */
 
   /* main team-section start here */
   .team-info {
