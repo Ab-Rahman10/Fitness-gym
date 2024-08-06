@@ -373,9 +373,22 @@ nav {
 /* main tips style end here */
 
 /* main BMI start here  */
+.bmi-title {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.bmi-title h2 {
+  margin-top: 90px;
+}
+
+.bmi-title p {
+  margin-top: 14px;
+}
+
 .BMI {
   background-color: rgba(255, 255, 255, 0.1);
-  margin-top: 100px;
+  margin-top: 30px;
   padding: 50px 0;
 }
 
