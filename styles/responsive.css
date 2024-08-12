@@ -105,7 +105,7 @@
   /* main run-section start  */
   .run-container {
     width: 370px;
-    margin-left: -15px;
+    margin: 0 auto;
     display: flex;
     flex-direction: column;
   }
@@ -145,14 +145,13 @@
 
   .tips p {
     width: 370px;
-    margin-left: -15px;
+    margin: 0 auto;
     text-align: center;
   }
 
   .tips-container {
     width: 370px;
-    margin-top: 40px;
-    margin-left: -15px;
+    margin: 40px auto;
     display: flex;
     flex-direction: column;
     padding: 10px;
@@ -243,7 +242,7 @@
 
   .team-members {
     width: 370px;
-    margin-left: -15px;
+    margin: 0 auto;
     display: grid;
     grid-template-columns: repeat(1, 1fr);
   }
